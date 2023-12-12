@@ -2,7 +2,9 @@
 // 累乗計算するプログラム
 // 戻り値１００を出力する
 
-const num = (num1) => {
-    console.log( num1 * num1 );
+const double = (num) => {
+    return num*num;
 }
-num(10);
+
+// 関数の戻り値を出力する
+console.log(double(10));
